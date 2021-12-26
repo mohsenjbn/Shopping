@@ -8,5 +8,7 @@
         public string picture { get; set; }
 
         public long ProductCount { get; set; }
+
+        public string CreationDate { get; set; }
     }
 }

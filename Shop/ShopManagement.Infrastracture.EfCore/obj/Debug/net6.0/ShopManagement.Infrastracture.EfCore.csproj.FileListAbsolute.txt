@@ -1,0 +1,14 @@
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\bin\Debug\net6.0\ShopManagement.Infrastracture.EfCore.deps.json
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\bin\Debug\net6.0\ShopManagement.Infrastracture.EfCore.runtimeconfig.json
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\bin\Debug\net6.0\ShopManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\bin\Debug\net6.0\ref\ShopManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\bin\Debug\net6.0\ShopManagement.Infrastracture.EfCore.pdb
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.csproj.AssemblyReference.cache
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.AssemblyInfoInputs.cache
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.AssemblyInfo.cs
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.csproj.CoreCompileInputs.cache
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ref\ShopManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.pdb
+D:\Shop\Shop\ShopManagement.Infrastracture.EfCore\obj\Debug\net6.0\ShopManagement.Infrastracture.EfCore.genruntimeconfig.cache

@@ -5,7 +5,32 @@
       "ProjectGuid": "8eca533c-5d9e-424b-b737-5c5c556ae6ed",
       "DisplayName": "Shop",
       "ColorIndex": 0
+    },
+    "b95f48ab-44d8-418a-8b01-e027ae0a1cab": {
+      "ProjectGuid": "b95f48ab-44d8-418a-8b01-e027ae0a1cab",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 1
+    },
+    "5f63a52a-d2b1-4ac5-b7a2-27ea2b8e3b7a": {
+      "ProjectGuid": "5f63a52a-d2b1-4ac5-b7a2-27ea2b8e3b7a",
+      "DisplayName": "Sh.Apolication.Constract",
+      "ColorIndex": 2
+    },
+    "5ccdc000-ca54-4e3b-8aeb-230dadaa041f": {
+      "ProjectGuid": "5ccdc000-ca54-4e3b-8aeb-230dadaa041f",
+      "DisplayName": "ShopiManagement.Application.Contracts",
+      "ColorIndex": 3
+    },
+    "12cf931b-c29f-4bd2-b01e-2f11cbe17570": {
+      "ProjectGuid": "12cf931b-c29f-4bd2-b01e-2f11cbe17570",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 4
+    },
+    "62954427-4ab8-4892-a0b9-ed720963f8c9": {
+      "ProjectGuid": "62954427-4ab8-4892-a0b9-ed720963f8c9",
+      "DisplayName": "01-framework",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 6
 }

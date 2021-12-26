@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShopiManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01-framework": "1.0.0"
+        },
+        "runtime": {
+          "ShopiManagement.Application.Contracts.dll": {}
+        }
+      },
+      "01-framework/1.0.0": {
+        "runtime": {
+          "01-framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopiManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "01-framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
