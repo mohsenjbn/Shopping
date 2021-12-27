@@ -11,7 +11,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
+          "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Infrastracture.EfCore.dll": {}
@@ -483,6 +484,31 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "01-framework/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.1"
+        },
+        "runtime": {
+          "01-framework.dll": {}
+        }
+      },
+      "ShopiManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01-framework": "1.0.0"
+        },
+        "runtime": {
+          "ShopiManagement.Application.Contracts.dll": {}
+        }
+      },
+      "ShopManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "ShopiManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "ShopManagement.Domain.dll": {}
+        }
       }
     }
   },
@@ -792,6 +818,21 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "01-framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopiManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

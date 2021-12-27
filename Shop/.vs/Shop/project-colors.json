@@ -30,7 +30,12 @@
       "ProjectGuid": "62954427-4ab8-4892-a0b9-ed720963f8c9",
       "DisplayName": "01-framework",
       "ColorIndex": 5
+    },
+    "339a56b2-07c9-4d1f-824f-872f99b4cd40": {
+      "ProjectGuid": "339a56b2-07c9-4d1f-824f-872f99b4cd40",
+      "DisplayName": "ShopManagement.Infrastracture.EfCore",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
