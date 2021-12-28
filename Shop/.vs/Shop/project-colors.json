@@ -35,7 +35,17 @@
       "ProjectGuid": "339a56b2-07c9-4d1f-824f-872f99b4cd40",
       "DisplayName": "ShopManagement.Infrastracture.EfCore",
       "ColorIndex": 6
+    },
+    "1c1a4fe5-9b9f-426f-bbe3-872eecdb3b79": {
+      "ProjectGuid": "1c1a4fe5-9b9f-426f-bbe3-872eecdb3b79",
+      "DisplayName": "ShopManagement.Configuration",
+      "ColorIndex": 7
+    },
+    "23ef7572-8a51-4671-ab25-57b4a60d282c": {
+      "ProjectGuid": "23ef7572-8a51-4671-ab25-57b4a60d282c",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

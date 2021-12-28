@@ -5,7 +5,7 @@ var ConnectionString = builder.Configuration.GetConnectionString("Shop");
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-ShopManagementBootstrapper.Configure(builder.Services, "");
+ShopManagementBootstrapper.Configure(builder.Services, ConnectionString);
 
 var app = builder.Build();
 
@@ -21,6 +21,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
 
 app.UseAuthorization();
 
