@@ -36,7 +36,7 @@ namespace ShopManagement.Application
             if (ProductCategory == null)
                 return Operation.Failed("رکورد با این مشخصات یافت نشد ، لطفا مجدد تلاش فرمایید.");
 
-            if (_productCategoryRepository.IsExist(p => p.Name == Command.Name && p.Id != Command.Id)) ;
+            if (_productCategoryRepository.IsExist(p => p.Name == Command.Name && p.Id != Command.Id)) 
             return Operation.Failed("امکان ثبت رکورد وجود ندارد. لطفا مجددا تلاش فرمایید ");
 
             var Slug = Command.Slug.Slugify();

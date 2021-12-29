@@ -143,12 +143,12 @@
         }
       }
     },
-    "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj": {
+    "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj",
-        "projectName": "ShopiManagement.Application.Contracts",
-        "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
+        "projectName": "ShopManagement.Application.Contracts",
+        "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
         "outputPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\obj\\",
         "projectStyle": "PackageReference",
@@ -235,8 +235,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj"
+              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
               },
               "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj"
@@ -304,8 +304,8 @@
               "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
                 "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
               },
-              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj"
+              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -367,8 +367,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj"
+              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
               },
               "D:\\Shop\\Shop\\Sh.Application\\ShopManagement.Application.csproj": {
                 "projectPath": "D:\\Shop\\Shop\\Sh.Application\\ShopManagement.Application.csproj"

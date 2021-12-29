@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01-framework\01-framework.csproj" />
-    <ProjectReference Include="..\Sh.Application.Constract\ShopiManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Sh.Application.Constract\ShopManagement.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

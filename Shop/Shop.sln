@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Domain", "Sh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sh.Application", "Sh.Application", "{B7770ACE-E7C9-4A2B-BF23-E8DEE58D6A19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopiManagement.Application.Contracts", "Sh.Application.Constract\ShopiManagement.Application.Contracts.csproj", "{5CCDC000-CA54-4E3B-8AEB-230DADAA041F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application.Contracts", "Sh.Application.Constract\ShopManagement.Application.Contracts.csproj", "{5CCDC000-CA54-4E3B-8AEB-230DADAA041F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application", "Sh.Application\ShopManagement.Application.csproj", "{12CF931B-C29F-4BD2-B01E-2F11CBE17570}"
 EndProject

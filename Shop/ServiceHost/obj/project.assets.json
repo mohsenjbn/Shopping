@@ -633,31 +633,31 @@
           "bin/placeholder/01-framework.dll": {}
         }
       },
-      "ShopiManagement.Application.Contracts/1.0.0": {
+      "ShopManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "ShopManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Application.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "01-framework": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ShopiManagement.Application.Contracts.dll": {}
+          "bin/placeholder/ShopManagement.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ShopiManagement.Application.Contracts.dll": {}
-        }
-      },
-      "ShopManagement.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "ShopManagement.Domain": "1.0.0",
-          "ShopiManagement.Application.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ShopManagement.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShopManagement.Application.dll": {}
+          "bin/placeholder/ShopManagement.Application.Contracts.dll": {}
         }
       },
       "ShopManagement.Configuration/1.0.0": {
@@ -666,8 +666,8 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "ShopManagement.Application": "1.0.0",
-          "ShopManagement.Infrastracture.EfCore": "1.0.0",
-          "ShopiManagement.Application.Contracts": "1.0.0"
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShopManagement.Configuration.dll": {}
@@ -681,7 +681,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "01-framework": "1.0.0",
-          "ShopiManagement.Application.Contracts": "1.0.0"
+          "ShopManagement.Application.Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShopManagement.Domain.dll": {}
@@ -1905,15 +1905,15 @@
       "path": "../01-framework/01-framework.csproj",
       "msbuildProject": "../01-framework/01-framework.csproj"
     },
-    "ShopiManagement.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Sh.Application.Constract/ShopiManagement.Application.Contracts.csproj",
-      "msbuildProject": "../Sh.Application.Constract/ShopiManagement.Application.Contracts.csproj"
-    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../Sh.Application/ShopManagement.Application.csproj",
       "msbuildProject": "../Sh.Application/ShopManagement.Application.csproj"
+    },
+    "ShopManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Sh.Application.Constract/ShopManagement.Application.Contracts.csproj",
+      "msbuildProject": "../Sh.Application.Constract/ShopManagement.Application.Contracts.csproj"
     },
     "ShopManagement.Configuration/1.0.0": {
       "type": "project",

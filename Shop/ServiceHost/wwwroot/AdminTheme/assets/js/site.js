@@ -75,7 +75,8 @@ function CallBackHandler(data, action, form) {
             alert(data.Message);
             break;
         case "Refresh":
-            if (data.isSuccedded) {
+            if (data.sucssesed) {
+                console.log("ues")
                 window.location.reload();
             } else {
                 alert(data.message);

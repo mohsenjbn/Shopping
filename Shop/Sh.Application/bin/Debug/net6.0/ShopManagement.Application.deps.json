@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
-          "ShopManagement.Domain": "1.0.0",
-          "ShopiManagement.Application.Contracts": "1.0.0"
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Application.dll": {}
@@ -152,18 +152,18 @@
           "01-framework.dll": {}
         }
       },
-      "ShopiManagement.Application.Contracts/1.0.0": {
+      "ShopManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "01-framework": "1.0.0"
         },
         "runtime": {
-          "ShopiManagement.Application.Contracts.dll": {}
+          "ShopManagement.Application.Contracts.dll": {}
         }
       },
       "ShopManagement.Domain/1.0.0": {
         "dependencies": {
           "01-framework": "1.0.0",
-          "ShopiManagement.Application.Contracts": "1.0.0"
+          "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Domain.dll": {}
@@ -280,7 +280,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ShopiManagement.Application.Contracts/1.0.0": {
+    "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

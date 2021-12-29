@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sh.Application.Constract\ShopiManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Sh.Application.Constract\ShopManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\Sh.Application\ShopManagement.Application.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastracture.EfCore\ShopManagement.Infrastracture.EfCore.csproj" />
   </ItemGroup>

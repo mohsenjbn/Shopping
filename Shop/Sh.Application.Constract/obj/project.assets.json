@@ -548,9 +548,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj",
-      "projectName": "ShopiManagement.Application.Contracts",
-      "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopiManagement.Application.Contracts.csproj",
+      "projectUniqueName": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
+      "projectName": "ShopManagement.Application.Contracts",
+      "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
       "outputPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\obj\\",
       "projectStyle": "PackageReference",

@@ -3,9 +3,7 @@ D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ref\ShopManagement.Domain.dll
 D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb
 D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\01-framework.dll
-D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopiManagement.Application.Contracts.dll
 D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\01-framework.pdb
-D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopiManagement.Application.Contracts.pdb
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.AssemblyReference.cache
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfoInputs.cache
@@ -15,3 +13,5 @@ D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CopyComplet
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll
 D:\Shop\Shop\Sh.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb
+D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\Shop\Shop\Sh.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
