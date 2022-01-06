@@ -8,7 +8,9 @@ namespace ShopiManagement.Application.Contracts.ProductCategory
     {
         OperationResult Create(CreateProductCategory Command);
         OperationResult Edit(EditProductCategory Command);
-        List<ProDuctCategoryViewModel> GetAll(ProductCategorySearchModel command);
+        List<ProductCategoryViewModel> GetAll(ProductCategorySearchModel command);
         EditProductCategory GetDetail(long id);
+
+        List<ProductCategoryViewModel> GetCategories();
     }
 }

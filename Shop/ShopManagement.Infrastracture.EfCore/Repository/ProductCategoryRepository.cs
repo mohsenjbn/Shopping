@@ -14,8 +14,16 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
         {
             _context=context;
         }
-     
 
+        public List<ProductCategoryViewModel> Categories()
+        {
+            return _context.productCategories.Select(c => new ProductCategoryViewModel()
+            {
+                Id = c.Id,
+                Name = c.Name,
+
+            }).ToList();
+        }
 
         public EditProductCategory GetDatail(long id)
         {
@@ -38,9 +46,9 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
         }
 
     
-        public List<ProDuctCategoryViewModel> Search(ProductCategorySearchModel searchmodel)
+        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel)
         {
-            var query = _context.productCategories.Select(p => new ProDuctCategoryViewModel()
+            var query = _context.productCategories.Select(p => new ProductCategoryViewModel()
             {
                 Name = p.Name,
                 picture = p.Picture,

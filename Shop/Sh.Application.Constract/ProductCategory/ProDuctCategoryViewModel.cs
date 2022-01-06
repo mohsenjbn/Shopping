@@ -1,6 +1,6 @@
 ﻿namespace ShopiManagement.Application.Contracts.ProductCategory
 {
-    public class ProDuctCategoryViewModel
+    public class ProductCategoryViewModel
     {
         public long Id { get; set; }
         public string Name { get; set; }

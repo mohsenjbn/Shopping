@@ -9,7 +9,8 @@ namespace Sh.Domain.ProductCategoryAgg
     public interface IProductCategoryRepository:IRepository<long,ProductCategory>
     {
 
-        List<ProDuctCategoryViewModel> Search(ProductCategorySearchModel searchmodel);
+        List<ProductCategoryViewModel> Categories();
+        List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel);
         EditProductCategory GetDatail(long id);
     }
 }

@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopiManagement.Application.Contracts.ProductCategory;
 
-namespace ServiceHost.Areas.Adminstarator.Pages.Shop.PoductCategory
+namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Products
 {
     public class IndexModel : PageModel
     {
         public ProductCategorySearchModel Search { get ; set; }
 
-        public List<ProDuctCategoryViewModel> ProductCategories { get; set; }
+        public List<ProductCategoryViewModel> ProductCategories { get; set; }
         private readonly IProductCategoryApplication _productCategoryApplication;
         public IndexModel(IProductCategoryApplication productCategoryApplication)
         {
