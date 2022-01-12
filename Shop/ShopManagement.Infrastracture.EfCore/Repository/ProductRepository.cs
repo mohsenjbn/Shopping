@@ -25,17 +25,19 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 IsInStock=p.IsInStock,
                 Picture=p.Picture,
                 UnitPrice=p.UnitPrice.ToString(),
+                CategoryId=p.ProductCategory.Id
+                
 
             }).ToList();
 
             if (!string.IsNullOrWhiteSpace(search.Name))
-                query.Where(p => p.Name.Contains(search.Name)).ToList();
+                query=query.Where(p => p.Name.Contains(search.Name)).ToList();
 
             if(!string.IsNullOrWhiteSpace(search.Code))
-                query.Where(p => p.code.Contains(search.Code)).ToList();
+                query = query.Where(p => p.code.Contains(search.Code)).ToList();
 
-            if(search.CategoryId>0)
-                query.Where(p=>p.Id==search.CategoryId).ToList();
+            if(search.CategoryId != 0)
+                query = query.Where(p=>p.CategoryId==search.CategoryId).ToList();
 
             return query.OrderByDescending(p => p.Id).ToList();
 

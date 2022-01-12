@@ -10,7 +10,7 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Product
     {
         public SelectList Categories;
         public List<ProductViewModel> Products { get; set; }
-        public SearchModelProduct search { get; set; }
+        public SearchModelProduct search;
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
         public IndexModel(IProductApplication productApplication,IProductCategoryApplication productCategoryApplication)

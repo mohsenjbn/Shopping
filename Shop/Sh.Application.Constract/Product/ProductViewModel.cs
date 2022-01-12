@@ -12,6 +12,7 @@ namespace ShopManagement.Application.Contracts.Product
         public bool IsInStock { get; set; }
         public string UnitPrice { get; set; }
         public string code { get; set; }
+        public long CategoryId { get; set; }
 
 
     }
