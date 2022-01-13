@@ -36,7 +36,7 @@ namespace ShopManagement.Application
             if (ProductPicture == null)
                 return Operation.Failed(ResultMessage.IsNotExistRecord);
 
-            if (_productPictureRepository.IsExist(p => p.Picture == command.Picture && p.ProductId == command.ProductId))
+            if (_productPictureRepository.IsExist(p => p.Picture == command.Picture && p.ProductId != command.ProductId))
                 return Operation.Failed(ResultMessage.IsDoblicated);
 
             ProductPicture.Edit(command.Picture, command.

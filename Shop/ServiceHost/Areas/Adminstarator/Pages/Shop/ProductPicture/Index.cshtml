@@ -30,7 +30,7 @@
                     <div class="form-group">
                         <label class="sr-only" asp-for="search.ProdctId"></label>
                         <select class="form-control" asp-for="search.ProdctId" asp-items="Model.Products">
-                            <option value="0">lمحصول ...</option>
+                            <option value="0">نام محصول...</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
@@ -72,8 +72,8 @@
                                         </td>
                                         <td>@item.ProductName</td>
                                 
-                                        <th class="text-center">
-                                            @if (item.IsRemove)
+                                        <td class="text-center">
+                                            @if (item.IsRemove==false)
                                             {
                                                 <i class="fa fa-check fa-3x text-success"></i>
                                             }
@@ -82,7 +82,7 @@
                                                 <i class="fa fa-remove fa-3x text-danger"></i>
                                             }
 
-                                        </th>
+                                        </td>
                                         <th>@item.CreationDate</th>
 
                                         <td>
@@ -91,7 +91,7 @@
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
 
-                                            @if (item.IsRemove)
+                                            @if (item.IsRemove==false)
                                             {
                                                 <a asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
                                            class="btn btn-danger btn-custom waves-effect waves-light m-b-5">غیر فعال !</a>

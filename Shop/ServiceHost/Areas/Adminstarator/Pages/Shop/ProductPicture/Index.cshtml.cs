@@ -33,9 +33,9 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.ProductPicture
             return Partial("./Create", command);
         }
 
-        public JsonResult OnPostCreate(CreateProductPicture commnd)
+        public JsonResult OnPostCreate(CreateProductPicture command)
         {
-            var result = _productApplication.Create(commnd);
+            var result = _productPictureApplication.Create(command);
             return new JsonResult(result);
         }
 
@@ -59,7 +59,7 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.ProductPicture
             return RedirectToPage("./Index", result);
 
         }
-        public IActionResult OnGetRestpre(long id)
+        public IActionResult OnGetRestore(long id)
         {
             var result = _productPictureApplication.Restore(id);
             return RedirectToPage("./Index", result);

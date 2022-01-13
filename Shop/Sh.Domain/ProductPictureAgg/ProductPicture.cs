@@ -43,11 +43,11 @@ namespace ShopManagement.Domain.ProductPictureAgg
 
         public void Remove()
         {
-            this.IsDeleted = true;
+            IsDeleted = true;
         }
         public void Restore()
         {
-            this.IsDeleted  = false;
+            IsDeleted  = false;
 
         }
     }
