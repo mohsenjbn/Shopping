@@ -1,6 +1,7 @@
 ﻿
 using _01_framework.Domain;
 using Sh.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Domain.ProductAgg
 {
@@ -22,6 +23,7 @@ namespace ShopManagement.Domain.ProductAgg
         public long ProductCatagoryId { get; private set; }
 
         public ProductCategory ProductCategory { get; set; }
+        public List<ProductPicture> ProductPictures { get; private set; }
 
         protected Product()
         {

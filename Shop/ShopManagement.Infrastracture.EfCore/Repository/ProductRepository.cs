@@ -1,4 +1,4 @@
-﻿using _01_framework.Infrastracture;
+﻿    using _01_framework.Infrastracture;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
