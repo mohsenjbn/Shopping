@@ -44,6 +44,16 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
 
         }
 
+        public List<ProductViewModel> GetAllProducts()
+        {
+            return _context.Products.Select(p => new ProductViewModel
+            {
+                Id=p.Id,
+                Name=p.Name
+
+            }).ToList();
+        }
+
         public EditProduct GetDetail(long id)
         {
             return _context.Products.Select(p => new EditProduct()

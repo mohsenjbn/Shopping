@@ -4,7 +4,7 @@ using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Application
 {
-    internal class ProductPictureApplication : IProductPictureApplication
+    public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
 
@@ -51,7 +51,7 @@ namespace ShopManagement.Application
             return _productPictureRepository.GetAll(search);
         }
 
-        public EditProductPicture GetProduct(long id)
+        public EditProductPicture GetDetails(long id)
         {
             return _productPictureRepository.GetDetals(id);
         }
