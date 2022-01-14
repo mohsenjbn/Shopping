@@ -5,8 +5,10 @@ using ShopiManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastracture.EfCore;
 using ShopManagement.Infrastracture.EfCore.Repository;
 
@@ -22,6 +24,10 @@ namespace ShopManagement.Configuration
             service.AddTransient<IProductRepository,ProductRepository>();
             service.AddTransient<IProductPictureRepository, ProductPictureRepository>();
             service.AddTransient<IProductPictureApplication, ProductPictureApplication>();
+            service.AddTransient<ISlideApplication, SlideApplication>();
+            service.AddTransient<ISlideRepository, SlideRepository>();
+
+
 
 
             service.AddDbContext<ShopContext>(x => x.UseSqlServer(ConnecttionString));
