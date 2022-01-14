@@ -63,6 +63,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xTaG9wXFByb2R1Y3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Shop/Slide/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xTaG9wXFNsaWRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Shop/Slide/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xTaG9wXFNsaWRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Shop/Slide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xTaG9wXFNsaWRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
