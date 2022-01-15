@@ -70,7 +70,7 @@ namespace ShopManagement.Application
             if (slide == null)
                 return Operation.Failed(ResultMessage.IsNotExistRecord);
 
-            slide.Remove();
+            slide.Restore();
             _sliseRepository.Savechanges();
 
             return Operation.IsSucssed();
