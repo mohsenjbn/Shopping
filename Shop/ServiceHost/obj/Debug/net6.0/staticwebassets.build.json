@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JhJdr9gBm7cPKKptXO6csG+C9D2Toz+esznU7KobShU=",
+  "Hash": "tqHWTOFfSKmB0+RjoUAKPgNNsRk5yBWcC2VwoIiafbI=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6987,12 +6987,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\bedroom.jpg"
     },
     {
-      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg",
+      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\category1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img1-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/category1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7001,15 +7001,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\category1.jpg"
     },
     {
-      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.png",
+      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\category2.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img2-top-eposi1.png",
+      "RelativePath": "Theme/assets/img/category/category2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7018,15 +7018,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.png"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\category2.jpg"
     },
     {
-      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg",
+      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\category3.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img3-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/category3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7035,7 +7035,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\category3.jpg"
     },
     {
       "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\favicon.ico",

@@ -25,7 +25,7 @@
                 <h3 class="panel-title">جستجو در گروه محصولات</h3>
             </div>
             <div class="panel-body">
-                 <form class="form-inline" role="form" method="get">
+                <form class="form-inline" role="form" method="get">
                     <div class="form-group">
                         <label class="sr-only" asp-for="Search.Name"></label>
                         <input class="form-control" asp-for="Search.Name" placeholder="نام گروه محصولی">
@@ -58,9 +58,9 @@
                                 </tr>
                             </thead>
                             <tbody>
-                               @foreach(var item in Model.ProductCategories)
+                                @foreach (var item in Model.ProductCategories)
                                 {
-                                <tr>
+                                    <tr>
                                         <td>@item.Id</td>
                                         <td>
                                             <img src="@item.picture" style="width: 70px; height: 70px" />
@@ -68,16 +68,16 @@
                                         <td>@item.Name</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                          <a class="btn btn-warning pull-right m-rl-5" 
-                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                            <a class="btn btn-warning pull-right m-rl-5"
+                                           href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>
                                     </tr>
 
                                 }
-                                    
-                                
+
+
                             </tbody>
                         </table>
                     </div>
@@ -88,12 +88,12 @@
 </div>
 
 @section Scripts {
-    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
-    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+<script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+<script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#datatable').dataTable();
-        });
-    </script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#datatable').dataTable();
+    });
+</script>
 }

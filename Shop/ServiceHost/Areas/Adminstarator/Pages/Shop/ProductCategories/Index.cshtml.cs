@@ -32,10 +32,10 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Products
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetEdit(long id )
+        public IActionResult OnGetEdit(long id)
         {
             var ProductCategory = _productCategoryApplication.GetDetail(id);
-            return Partial("./Edit", ProductCategory);
+            return Partial("./Edit",ProductCategory);
         }
 
         public JsonResult OnPostEdit(EditProductCategory command)
