@@ -21,3 +21,5 @@ D:\Shop\Shop\ShopManagement.Configuration\obj\Debug\net6.0\ref\ShopManagement.Co
 D:\Shop\Shop\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.pdb
 D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\01-ShopQuery.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\01-ShopQuery.pdb

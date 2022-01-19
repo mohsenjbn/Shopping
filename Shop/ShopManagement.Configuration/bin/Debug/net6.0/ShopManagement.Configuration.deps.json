@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ShopManagement.Configuration/1.0.0": {
         "dependencies": {
+          "01-ShopQuery": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Application.Contracts": "1.0.0",
@@ -467,6 +468,14 @@
           "01-framework.dll": {}
         }
       },
+      "01-ShopQuery/1.0.0": {
+        "dependencies": {
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "01-ShopQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
           "ShopManagement.Application.Contracts": "1.0.0",
@@ -792,6 +801,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "01-framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "01-ShopQuery/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -24,7 +24,7 @@
             </div>
 
         </div>
-         <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="PictureTitle" class="control-label">PictureTitle</label>
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-         <div class="row">
+        <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="Title" class="control-label">Title</label>
@@ -65,11 +65,24 @@
                     <span asp-validation-for="Title" class="error"></span>
                 </div>
             </div>
-
         </div>
 
+           <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Link" class="control-label">Link</label>
+                    <input type="text" class="form-control" asp-for="Link">
+                    <span asp-validation-for="Link" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-   
+
+    
+
 
 
 

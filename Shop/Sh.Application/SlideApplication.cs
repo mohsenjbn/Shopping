@@ -18,7 +18,7 @@ namespace ShopManagement.Application
             var Operation = new OperationResult();
             if (command == null)
                 return Operation.Failed(ResultMessage.IsDoblicated);
-            var slide=new Slide(command.Picture,command.PictureAlt,command.PictureTitle,command.Heading,command.Title,command.Btntext);
+            var slide=new Slide(command.Picture,command.PictureAlt,command.PictureTitle,command.Heading,command.Title,command.Btntext,command.Link);
             _sliseRepository.Create(slide);
             _sliseRepository.Savechanges();
             return Operation.IsSucssed();
@@ -31,7 +31,7 @@ namespace ShopManagement.Application
             if (slide == null)
                 return Operation.Failed(ResultMessage.IsNotExistRecord);
 
-            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title, command.Btntext);
+            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title, command.Btntext,command.Link);
             _sliseRepository.Savechanges();
 
             return Operation.IsSucssed();

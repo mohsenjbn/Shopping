@@ -633,6 +633,19 @@
           "bin/placeholder/01-framework.dll": {}
         }
       },
+      "01-ShopQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01-ShopQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01-ShopQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -664,6 +677,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "01-ShopQuery": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Application.Contracts": "1.0.0",
@@ -1904,6 +1918,11 @@
       "type": "project",
       "path": "../01-framework/01-framework.csproj",
       "msbuildProject": "../01-framework/01-framework.csproj"
+    },
+    "01-ShopQuery/1.0.0": {
+      "type": "project",
+      "path": "../01-ShopQuery/01-ShopQuery.csproj",
+      "msbuildProject": "../01-ShopQuery/01-ShopQuery.csproj"
     },
     "ShopManagement.Application/1.0.0": {
       "type": "project",

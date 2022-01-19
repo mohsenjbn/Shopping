@@ -70,3 +70,5 @@ D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Humanizer.dll
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\01-ShopQuery.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\01-ShopQuery.pdb
