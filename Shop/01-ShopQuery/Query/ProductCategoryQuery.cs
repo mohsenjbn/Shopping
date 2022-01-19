@@ -24,7 +24,7 @@ namespace _01_ShopQuery.Query
                 Slug=c.Slug,
 
 
-            }).ToList();
+            }).OrderByDescending(p=>p.Id).Take(3).ToList();
         }
     }
 }

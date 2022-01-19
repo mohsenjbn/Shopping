@@ -34,10 +34,11 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Products
 
         public IActionResult OnGetEdit(long id)
         {
-            var ProductCategory = _productCategoryApplication.GetDetail(id);
-            return Partial("./Edit",ProductCategory);
-        }
+            var productCategory = _productCategoryApplication.GetDetail(id);
+            
+            return Partial("./Edit", productCategory);
 
+        }
         public JsonResult OnPostEdit(EditProductCategory command)
         {
             var result = _productCategoryApplication.Edit(command);
