@@ -72,3 +72,13 @@ D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.d
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\01-ShopQuery.dll
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\01-ShopQuery.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagement.Apolication.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagment.Domain.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManegmant.Infrastracture.Configoration.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManegmant.Infrastracture.Configoration.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagement.Apolication.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\DiscountManagment.Domain.pdb

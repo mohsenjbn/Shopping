@@ -646,6 +646,78 @@
           "bin/placeholder/01-ShopQuery.dll": {}
         }
       },
+      "DiscontManagement.Infrastracture.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DiscountManagment.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscontManagement.Infrastracture.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscontManagement.Infrastracture.EfCore.dll": {}
+        }
+      },
+      "DiscountManagement.Apolication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DiscountManagement.Application.Contracts": "1.0.0",
+          "DiscountManagment.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Apolication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Apolication.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "DiscountManagment.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagment.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagment.Domain.dll": {}
+        }
+      },
+      "DiscountManegmant.Infrastracture.Configoration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DiscontManagement.Infrastracture.EfCore": "1.0.0",
+          "DiscountManagement.Apolication": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManegmant.Infrastracture.Configoration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManegmant.Infrastracture.Configoration.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1924,6 +1996,31 @@
       "path": "../01-ShopQuery/01-ShopQuery.csproj",
       "msbuildProject": "../01-ShopQuery/01-ShopQuery.csproj"
     },
+    "DiscontManagement.Infrastracture.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../DiscontManagement.Infrastracture.EfCore/DiscontManagement.Infrastracture.EfCore.csproj",
+      "msbuildProject": "../DiscontManagement.Infrastracture.EfCore/DiscontManagement.Infrastracture.EfCore.csproj"
+    },
+    "DiscountManagement.Apolication/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Apolication/DiscountManagement.Apolication.csproj",
+      "msbuildProject": "../DiscountManagement.Apolication/DiscountManagement.Apolication.csproj"
+    },
+    "DiscountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj",
+      "msbuildProject": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj"
+    },
+    "DiscountManagment.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagment.Domain/DiscountManagment.Domain.csproj",
+      "msbuildProject": "../DiscountManagment.Domain/DiscountManagment.Domain.csproj"
+    },
+    "DiscountManegmant.Infrastracture.Configoration/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManegmant.Infrastracture.Configoration/DiscountManegmant.Infrastracture.Configoration.csproj",
+      "msbuildProject": "../DiscountManegmant.Infrastracture.Configoration/DiscountManegmant.Infrastracture.Configoration.csproj"
+    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../Sh.Application/ShopManagement.Application.csproj",
@@ -1952,6 +2049,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DiscountManegmant.Infrastracture.Configoration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "ShopManagement.Configuration >= 1.0.0"
     ]
@@ -1989,6 +2087,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj": {
+              "projectPath": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj"
+            },
             "D:\\Shop\\Shop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
               "projectPath": "D:\\Shop\\Shop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
             }

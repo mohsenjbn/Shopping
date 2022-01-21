@@ -1,0 +1,15 @@
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.deps.json
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\01-framework.dll
+D:\Shop\Shop\DiscountManagement.Application.Contracts\bin\Debug\net6.0\01-framework.pdb
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb

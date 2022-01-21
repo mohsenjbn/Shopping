@@ -132,6 +132,355 @@
         }
       }
     },
+    "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
+        "projectName": "DiscontManagement.Infrastracture.EfCore",
+        "projectPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
+              },
+              "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
+        "projectName": "DiscountManagement.Apolication",
+        "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectName": "DiscountManagement.Application.Contracts",
+        "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
+        "projectName": "DiscountManagment.Domain",
+        "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              },
+              "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj",
+        "projectName": "DiscountManegmant.Infrastracture.Configoration",
+        "projectPath": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj"
+              },
+              "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Shop\\Shop\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -161,6 +510,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj"
+              },
               "D:\\Shop\\Shop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
                 "projectPath": "D:\\Shop\\Shop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
               }
