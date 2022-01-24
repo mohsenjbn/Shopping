@@ -55,7 +55,32 @@
       "ProjectGuid": "bfa257af-c73f-45ed-871e-43ed1168ea2f",
       "DisplayName": "01-ShopQuery",
       "ColorIndex": 9
+    },
+    "c64b3eb6-ecfc-4fd4-a134-5a436b1c366f": {
+      "ProjectGuid": "c64b3eb6-ecfc-4fd4-a134-5a436b1c366f",
+      "DisplayName": "DiscountManagment.Domain",
+      "ColorIndex": 10
+    },
+    "26e16b0e-b479-45bd-bee9-a7af31f83d63": {
+      "ProjectGuid": "26e16b0e-b479-45bd-bee9-a7af31f83d63",
+      "DisplayName": "DiscountManagement.Application.Contracts",
+      "ColorIndex": 11
+    },
+    "2fa20333-9c5f-4e9b-8688-e9868cb77b59": {
+      "ProjectGuid": "2fa20333-9c5f-4e9b-8688-e9868cb77b59",
+      "DisplayName": "DiscontManagement.Infrastracture.EfCore",
+      "ColorIndex": 12
+    },
+    "08f0147a-80ae-4d86-a5ba-ae2bd8b055a1": {
+      "ProjectGuid": "08f0147a-80ae-4d86-a5ba-ae2bd8b055a1",
+      "DisplayName": "DiscountManagement.Apolication",
+      "ColorIndex": 13
+    },
+    "37e66ecb-2f00-4dfd-839a-a49f91c573f3": {
+      "ProjectGuid": "37e66ecb-2f00-4dfd-839a-a49f91c573f3",
+      "DisplayName": "DiscountManegmant.Infrastracture.Configoration",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 15
 }

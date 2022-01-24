@@ -1,5 +1,6 @@
 ﻿
 
+using _0_Framework.Application;
 using _01_framework.Infrastracture;
 using Sh.Domain.ProductCategoryAgg;
 using ShopiManagement.Application.Contracts.ProductCategory;
@@ -53,7 +54,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 Name = p.Name,
                 picture = p.Picture,
                 Id = p.Id,
-                CreationDate = p.CreationDate.ToString()
+                CreationDate = p.CreationDate.ToFarsi()
             }); 
 
             if(!string.IsNullOrWhiteSpace(searchmodel.Name))

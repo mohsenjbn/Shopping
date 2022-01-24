@@ -1,4 +1,5 @@
 ﻿
+using _0_Framework.Application;
 using _01_framework.Infrastracture;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductPicture;
@@ -19,7 +20,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
             var query=_context.ProductPictures.Include(p=>p.product).Select(x=>new ProductPictureViewModel
             {
              Id=x.Id,
-             CreationDate=x.CreationDate.ToString(),
+             CreationDate=x.CreationDate.ToFarsi(),
              IsRemove=x.IsDeleted,
              picture=x.Picture,
              ProductName=x.product.Name,

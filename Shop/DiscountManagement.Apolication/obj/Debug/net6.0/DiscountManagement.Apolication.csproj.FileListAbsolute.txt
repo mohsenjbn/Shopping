@@ -17,3 +17,5 @@ D:\Shop\Shop\DiscountManagement.Apolication\obj\Debug\net6.0\DiscountManagement.
 D:\Shop\Shop\DiscountManagement.Apolication\obj\Debug\net6.0\DiscountManagement.Apolication.dll
 D:\Shop\Shop\DiscountManagement.Apolication\obj\Debug\net6.0\ref\DiscountManagement.Apolication.dll
 D:\Shop\Shop\DiscountManagement.Apolication\obj\Debug\net6.0\DiscountManagement.Apolication.pdb
+D:\Shop\Shop\DiscountManagement.Apolication\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagement.Apolication\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

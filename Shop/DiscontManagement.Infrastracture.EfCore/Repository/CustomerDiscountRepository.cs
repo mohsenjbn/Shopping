@@ -31,8 +31,8 @@ namespace DiscontManagement.Infrastracture.EfCore.Repository
                 StartDateGr=x.StartDate,
                 EndDateGr=x.EndDate,
                 Id=x.Id,
-                //ProductName=Products.FirstOrDefault(P=>P.Id==x.ProductId).Name
-                
+               
+
             });
 
             if(searchmodel.ProductId > 0)
@@ -40,22 +40,22 @@ namespace DiscontManagement.Infrastracture.EfCore.Repository
                 query= query.Where(p=>p.ProductId == searchmodel.ProductId);
             }
 
-            if(string.IsNullOrWhiteSpace(searchmodel.StartDate))
+            if(!string.IsNullOrWhiteSpace(searchmodel.StartDate))
             {
                 query = query.Where(p => p.StartDateGr > searchmodel.StartDate.ToGeorgianDateTime());
             }
 
-            if (string.IsNullOrWhiteSpace(searchmodel.EndDate))
+            if (!string.IsNullOrWhiteSpace(searchmodel.EndDate))
             {
                 query = query.Where(p => p.EndDateGr < searchmodel.EndDate.ToGeorgianDateTime());
             }
 
-            var discounts=query.OrderByDescending(x => x.Id).ToList();
-             discounts.ForEach(discount =>
-             discount.ProductName=Products.FirstOrDefault(x=> x.Id==discount.ProductId)?.Name);
+            var discounts = query.OrderByDescending(x => x.Id).ToList();
+            discounts.ForEach(discount =>
+            discount.ProductName = Products.FirstOrDefault(x => x.Id == discount.ProductId)?.Name);
 
             return discounts;
-            
+
         }
 
         public EditCustomerDiscount GetDetails(long id)

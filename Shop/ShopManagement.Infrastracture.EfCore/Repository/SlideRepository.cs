@@ -1,5 +1,6 @@
 ﻿
 
+using _0_Framework.Application;
 using _01_framework.Infrastracture;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
@@ -23,7 +24,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 Heading=x.Heading,
                 IsRemoved=x.IsRemoved,
                 picture=x.Picture,
-                CreationDate=x.CreationDate.ToString(),
+                CreationDate=x.CreationDate.ToFarsi(),
 
             }).ToList();
 

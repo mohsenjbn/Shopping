@@ -1,4 +1,5 @@
-﻿    using _01_framework.Infrastracture;
+﻿using _0_Framework.Application;
+using _01_framework.Infrastracture;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
@@ -20,7 +21,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 Name=p.Name,
                 CategoryName=p.ProductCategory.Name,
                 code=p.Code,
-                CreationDate=p.CreationDate.ToString(), 
+                CreationDate=p.CreationDate.ToFarsi(), 
                 Id=p.Id,
                 IsInStock=p.IsInStock,
                 Picture=p.Picture,
