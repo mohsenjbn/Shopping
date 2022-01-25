@@ -2,7 +2,6 @@
 using _01_framework.Infrastracture;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 using DiscountManagment.Domain.ColleagueDiscountAgg;
-using Microsoft.EntityFrameworkCore;
 using ShopManagement.Infrastracture.EfCore;
 
 namespace DiscontManagement.Infrastracture.EfCore.Repository
