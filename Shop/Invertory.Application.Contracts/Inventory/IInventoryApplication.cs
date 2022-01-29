@@ -7,7 +7,7 @@ namespace Invertory.Application.Contracts.Inventory
 
         OperationResult Create(CreateInventory command);
         OperationResult Edit(UpdateInventory command);
-        List<InventoryViewModel> GetAll(InventorySeacrModel seacrodel);
+        List<InventoryViewModel> GetAll(InventorySeacrModel seacrhModel);
         UpdateInventory GetDetails(long id);
         OperationResult Increase(Increase command);
         OperationResult Reduce(Reduce command);

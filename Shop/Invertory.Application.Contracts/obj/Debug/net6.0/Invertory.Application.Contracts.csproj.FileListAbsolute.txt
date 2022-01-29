@@ -1,0 +1,15 @@
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\Invertory.Application.Contracts.deps.json
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\Invertory.Application.Contracts.dll
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\ref\Invertory.Application.Contracts.dll
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\01-framework.dll
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\01-framework.pdb
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.csproj.AssemblyReference.cache
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.AssemblyInfoInputs.cache
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.AssemblyInfo.cs
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.csproj.CopyComplete
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.dll
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\ref\Invertory.Application.Contracts.dll
+D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.pdb

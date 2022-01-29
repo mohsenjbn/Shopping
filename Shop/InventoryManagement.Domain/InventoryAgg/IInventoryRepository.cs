@@ -5,8 +5,8 @@ namespace InventoryManagement.Domain.InventoryAgg
 {
     public interface  IInventoryRepository:IRepository<long,Inventory>
     {
-        Inventory GetBy(long ProductId);
-        List<InventoryViewModel> GetAll(InventorySeacrModel seacrodel);
+        Inventory Getfrom(long ProductId);
+        List<InventoryViewModel> GetAll(InventorySeacrModel seacrhmodel);
         UpdateInventory GetDetails(long id);
     }
 }

@@ -1,0 +1,17 @@
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.deps.json
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\ref\InventoryManagement.Domain.dll
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\01-framework.dll
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\Invertory.Application.Contracts.dll
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\01-framework.pdb
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfo.cs
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.CopyComplete
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
+D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb

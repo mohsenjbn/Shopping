@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiscountManegmant.Infrastracture.Configoration\DiscountManegmant.Infrastracture.Configoration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastracture.Configuration\InventoryManagement.Infrastracture.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 
