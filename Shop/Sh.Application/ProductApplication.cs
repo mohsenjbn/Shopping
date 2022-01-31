@@ -23,7 +23,7 @@ namespace ShopManagement.Application
 
             var Slug=command.Slug.Slugify();
             var product = new Product(command.Name, command.Code,
-                command.UnitPrice, command.ShortDescribtion, command.Describtion,
+                 command.ShortDescribtion, command.Describtion,
                 command.Picture, command.PictureAlt, command.PictureTitle,
                 command.MetaDescribtion, command.keyWords, Slug, command.ProductCatagoryId);
 
@@ -47,7 +47,7 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.Slugify();
             product.Edit(command.Name, command.Code,
-                command.UnitPrice, command.ShortDescribtion, command.Describtion,
+                 command.ShortDescribtion, command.Describtion,
                 command.Picture, command.PictureAlt, command.PictureTitle,
                 command.MetaDescribtion, command.keyWords, slug, command.ProductCatagoryId);
             _productRepository.Savechanges();
@@ -69,30 +69,8 @@ namespace ShopManagement.Application
           return _productRepository.GetDetail(id);
         }
 
-        public OperationResult IsInStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.GetBy(id);
-            if (product == null)
-                return operation.Failed(ResultMessage.IsNotExistRecord);
-
-            product.IsStock();
-            _productRepository.Savechanges();
-            return operation.IsSucssed();
-        }
-
-        public OperationResult NotIsStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.GetBy(id);
-            if (product == null)
-                return operation.Failed(ResultMessage.IsNotExistRecord);
-
-            product.NotInStock();
-            _productRepository.Savechanges();
-            return operation.IsSucssed();
-        }
-
+    
+     
        
 
     }

@@ -26,7 +26,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public long CurrentCountInventory()
         {
             var plus = Operations.Where(p => p.Operation).Sum(p => p.Count);
-            var minus = Operations.Where(p => !p.Operation).Sum(p => p.Count);
+            var minus = Operations.Where(p => p.Operation==false).Sum(p => p.Count);
             return plus - minus;
         }
 

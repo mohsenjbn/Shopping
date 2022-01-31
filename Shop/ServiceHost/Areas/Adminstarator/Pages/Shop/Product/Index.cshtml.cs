@@ -53,17 +53,6 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Product
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetNotInStock(long id)
-        {
-           var result= _productApplication.NotIsStock(id);
-            return RedirectToPage("./Index", result);
-            
-        }
-        public IActionResult OnGetInStock(long id)
-        {
-            var result = _productApplication.IsInStock(id);
-            return RedirectToPage("./Index", result);
 
-        }
     }
 }

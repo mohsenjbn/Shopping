@@ -99,9 +99,6 @@ namespace ShopManagement.Infrastracture.EfCore.Migrations
                         .HasMaxLength(20000)
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsInStock")
-                        .HasColumnType("bit");
-
                     b.Property<string>("MetaDescribtion")
                         .IsRequired()
                         .HasMaxLength(150)
@@ -139,9 +136,6 @@ namespace ShopManagement.Infrastracture.EfCore.Migrations
                         .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("nvarchar(300)");
-
-                    b.Property<double>("UnitPrice")
-                        .HasColumnType("float");
 
                     b.Property<string>("keyWords")
                         .IsRequired()

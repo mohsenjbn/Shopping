@@ -7,6 +7,8 @@
         public string Product { get; set; }
         public long CurrentCount { get; set; }
         public bool Instock { get; set; }
+        public double UnitPrice { get; set; }
+        public string CreationDate { get; set; }
     }
 
 }

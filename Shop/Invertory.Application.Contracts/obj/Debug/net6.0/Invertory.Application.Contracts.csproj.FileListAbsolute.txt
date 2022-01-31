@@ -13,3 +13,5 @@ D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Applicat
 D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.dll
 D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\ref\Invertory.Application.Contracts.dll
 D:\Shop\Shop\Invertory.Application.Contracts\obj\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\Shop\Shop\Invertory.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

@@ -15,3 +15,5 @@ D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Dom
 D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
 D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
 D:\Shop\Shop\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\Shop\Shop\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

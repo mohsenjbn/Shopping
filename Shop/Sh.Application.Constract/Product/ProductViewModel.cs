@@ -9,8 +9,6 @@ namespace ShopManagement.Application.Contracts.Product
         public string  CreationDate { get; set; }
         public string CategoryName { get; set; }
         public string Picture { get; set; }
-        public bool IsInStock { get; set; }
-        public string UnitPrice { get; set; }
         public string code { get; set; }
         public long CategoryId { get; set; }
 

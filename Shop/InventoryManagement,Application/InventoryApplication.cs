@@ -38,7 +38,7 @@ namespace InventoryManagement.Application
             if (_inventoryRepository.IsExist(p => p.ProductId == command.Id && p.Id != command.Id))
                 return Operation.Failed(ResultMessage.IsDoblicated);
 
-            inventory.Edit(command.Id,command.UnitPrice);
+            inventory.Edit(command.ProductId,command.UnitPrice);
             _inventoryRepository.Savechanges();
 
             return Operation.IsSucssed();
@@ -65,6 +65,11 @@ namespace InventoryManagement.Application
             inventory.Increase(command.Count, operatorId, command.Describtion);
             _inventoryRepository.Savechanges();
             return Operation.IsSucssed();
+        }
+
+        public List<InventoryOperationViewModel> InventoryOperations(long InventoryId)
+        {
+            return _inventoryRepository.InventoryOperations(InventoryId);
         }
 
         public OperationResult Reduce(Reduce command)

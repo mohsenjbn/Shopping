@@ -10,8 +10,6 @@ namespace ShopManagement.Domain.ProductAgg
         
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public bool IsInStock { get; private set; }
-        public double UnitPrice { get; private set; }
         public string ShortDescribtion { get; private set; }
         public string Describtion { get; private set; }
         public string Picture { get; private set; }
@@ -29,15 +27,13 @@ namespace ShopManagement.Domain.ProductAgg
         {
         }
 
-        public Product(string name, string code,double unitprice, 
+        public Product(string name, string code, 
             string shortDescribtion, string describtion, string picture,
             string pictureAlt, string pictureTitle, string metaDescribtion, 
             string keyWords, string slug, long productCatagoryId)
         {
             Name = name;
             Code = code;
-            IsInStock = true;
-            UnitPrice = unitprice;
             ShortDescribtion = shortDescribtion;
             Describtion = describtion;
             Picture = picture;
@@ -51,7 +47,7 @@ namespace ShopManagement.Domain.ProductAgg
 
     
 
-        public void Edit(string name, string code, double unitprice,
+        public void Edit(string name, string code, 
             string shortDescribtion, string describtion, string picture,
             string pictureAlt, string pictureTitle, string metaDescribtion,
             string keyWords, string slug, long productCatagoryId)
@@ -66,18 +62,9 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescribtion = metaDescribtion;
             this.keyWords = keyWords;
             Slug = slug;
-            UnitPrice= unitprice;
             ProductCatagoryId = productCatagoryId;
         }
 
-        public void IsStock()
-        {
-            this.IsInStock = true;
-        }
-
-        public void NotInStock()
-        {
-            this.IsInStock = false;
-        }
+      
     }
 }

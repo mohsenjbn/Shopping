@@ -505,7 +505,8 @@
       },
       "Invertory.Application.Contracts/1.0.0": {
         "dependencies": {
-          "01-framework": "1.0.0"
+          "01-framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "Invertory.Application.Contracts.dll": {}

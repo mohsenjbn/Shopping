@@ -8,5 +8,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         Inventory Getfrom(long ProductId);
         List<InventoryViewModel> GetAll(InventorySeacrModel seacrhmodel);
         UpdateInventory GetDetails(long id);
+        List<InventoryOperationViewModel> InventoryOperations(long InventoryId);
+
     }
 }

@@ -29,16 +29,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+         
+            <div class="col-md-12">
                 <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">قیمت واحد</label>
-                    <input class="form-control" asp-for="UnitPrice">
-                    <span asp-validation-for="UnitPrice" class="error"></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    S
+                    
                     <label asp-for="ProductCatagoryId" class="control-label">گروه محصول</label>
                     <select class="form-control" asp-for="ProductCatagoryId"
                             asp-items='new SelectList(Model.Categories, "Id", "Name")'>

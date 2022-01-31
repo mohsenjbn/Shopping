@@ -1,4 +1,5 @@
-﻿using _01_framework.Infrastracture;
+﻿using _0_Framework.Application;
+using _01_framework.Infrastracture;
 using InventoryManagement.Domain.InventoryAgg;
 using Invertory.Application.Contracts.Inventory;
 using ShopManagement.Infrastracture.EfCore;
@@ -25,13 +26,15 @@ namespace InventoryManagement.Infrastructure.EfCore.Repository
                 Instock = x.Instock,
                 CurrentCount = x.CurrentCountInventory(),
                 ProductId = x.ProductId,
+                CreationDate=x.CreationDate.ToFarsi(),
+                UnitPrice=x.UnitPrice
 
             });
 
             if (seacrhmodel.ProductId > 0)
                 query = query.Where(p => p.ProductId == seacrhmodel.ProductId);
 
-            if (!seacrhmodel.Instock)
+            if (seacrhmodel.Instock)
                 query = query.Where(p => p.Instock == false);
 
             var Inventory = query.OrderByDescending(x => x.Id).ToList();
@@ -53,6 +56,25 @@ namespace InventoryManagement.Infrastructure.EfCore.Repository
         public Inventory Getfrom(long ProductId)
         {
             return _inventoryContext.Inventory.FirstOrDefault(p => p.ProductId == ProductId);
+        }
+
+        public List<InventoryOperationViewModel> InventoryOperations(long InventoryId)
+        {
+            var Inventory=_inventoryContext.Inventory.FirstOrDefault(p=>p.Id == InventoryId);
+            return Inventory.Operations.Select(p => new InventoryOperationViewModel
+            {
+                Id=p.Id,
+                Count=p.Count,
+                CreationDate=p.CreationDate.ToFarsi(),
+                CurrentCount=p.CurrentCount,
+                Describtion=p.Describtion,
+                InventoryId=p.InventoryId,
+                Operation=p.Operation,
+                OperatorId=p.OperatorId,
+                OrderId=p.OrderId,
+               Operator="Admin" 
+            }).OrderByDescending(p=>p.Id).ToList();
+
         }
     }
 }

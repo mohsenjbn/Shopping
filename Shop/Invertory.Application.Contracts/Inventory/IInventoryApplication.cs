@@ -12,6 +12,7 @@ namespace Invertory.Application.Contracts.Inventory
         OperationResult Increase(Increase command);
         OperationResult Reduce(Reduce command);
         OperationResult Reduce(List<Reduce> command);
+        List<InventoryOperationViewModel> InventoryOperations(long InventoryId);
 
 
 

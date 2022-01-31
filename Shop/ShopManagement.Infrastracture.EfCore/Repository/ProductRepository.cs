@@ -23,9 +23,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 code=p.Code,
                 CreationDate=p.CreationDate.ToFarsi(), 
                 Id=p.Id,
-                IsInStock=p.IsInStock,
                 Picture=p.Picture,
-                UnitPrice=p.UnitPrice.ToString(),
                 CategoryId=p.ProductCategory.Id
                 
 
@@ -62,7 +60,6 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 Code = p.Code,
                 Id = p.Id,
                 Describtion = p.Describtion,
-                IsInStock = p.IsInStock,
                 keyWords = p.keyWords,
                 MetaDescribtion = p.MetaDescribtion,
                 Name = p.Name,
@@ -72,7 +69,6 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
                 ProductCatagoryId = p.ProductCatagoryId,
                 ShortDescribtion = p.ShortDescribtion,
                 Slug = p.Slug,
-                UnitPrice = p.UnitPrice,
             }).FirstOrDefault(p => p.Id == id);
         }
     }
