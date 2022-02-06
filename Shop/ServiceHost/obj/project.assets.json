@@ -637,6 +637,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DiscontManagement.Infrastracture.EfCore": "1.0.0",
+          "InventoryManagement.Infrastructure.EfCore": "1.0.0",
           "ShopManagement.Infrastracture.EfCore": "1.0.0"
         },
         "compile": {

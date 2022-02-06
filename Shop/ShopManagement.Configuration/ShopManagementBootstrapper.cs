@@ -1,4 +1,5 @@
-﻿using _01_ShopQuery.Contracts.ProductCategory;
+﻿using _01_ShopQuery.Contracts.Product;
+using _01_ShopQuery.Contracts.ProductCategory;
 using _01_ShopQuery.Contracts.Slide;
 using _01_ShopQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,7 @@ namespace ShopManagement.Configuration
 
             service.AddTransient<ISlideQuery, SlideQuery>();
             service.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            service.AddTransient<IProductQuery, ProductQuery>();
 
 
 

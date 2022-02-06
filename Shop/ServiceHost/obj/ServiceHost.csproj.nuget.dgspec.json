@@ -96,6 +96,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj"
+              },
+              "D:\\Shop\\Shop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Shop\\Shop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
               "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
                 "projectPath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj"
               }

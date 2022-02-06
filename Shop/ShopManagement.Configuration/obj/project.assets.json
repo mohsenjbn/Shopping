@@ -612,6 +612,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DiscontManagement.Infrastracture.EfCore": "1.0.0",
+          "InventoryManagement.Infrastructure.EfCore": "1.0.0",
           "ShopManagement.Infrastracture.EfCore": "1.0.0"
         },
         "compile": {
@@ -619,6 +621,94 @@
         },
         "runtime": {
           "bin/placeholder/01-ShopQuery.dll": {}
+        }
+      },
+      "DiscontManagement.Infrastracture.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DiscountManagment.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscontManagement.Infrastracture.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscontManagement.Infrastracture.EfCore.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "DiscountManagment.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagment.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagment.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "Invertory.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Infrastructure.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InventoryManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastracture.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Infrastructure.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "Invertory.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Invertory.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Invertory.Application.Contracts.dll": {}
         }
       },
       "ShopManagement.Application/1.0.0": {
@@ -1850,6 +1940,36 @@
       "type": "project",
       "path": "../01-ShopQuery/01-ShopQuery.csproj",
       "msbuildProject": "../01-ShopQuery/01-ShopQuery.csproj"
+    },
+    "DiscontManagement.Infrastracture.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../DiscontManagement.Infrastracture.EfCore/DiscontManagement.Infrastracture.EfCore.csproj",
+      "msbuildProject": "../DiscontManagement.Infrastracture.EfCore/DiscontManagement.Infrastracture.EfCore.csproj"
+    },
+    "DiscountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj",
+      "msbuildProject": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj"
+    },
+    "DiscountManagment.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagment.Domain/DiscountManagment.Domain.csproj",
+      "msbuildProject": "../DiscountManagment.Domain/DiscountManagment.Domain.csproj"
+    },
+    "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj",
+      "msbuildProject": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj"
+    },
+    "InventoryManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Infrastructure.EfCore/InventoryManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../InventoryManagement.Infrastructure.EfCore/InventoryManagement.Infrastructure.EfCore.csproj"
+    },
+    "Invertory.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Invertory.Application.Contracts/Invertory.Application.Contracts.csproj",
+      "msbuildProject": "../Invertory.Application.Contracts/Invertory.Application.Contracts.csproj"
     },
     "ShopManagement.Application/1.0.0": {
       "type": "project",

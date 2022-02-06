@@ -23,3 +23,15 @@ D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Applic
 D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\01-ShopQuery.dll
 D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\01-ShopQuery.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\Invertory.Application.Contracts.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagment.Domain.dll
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Shop\Shop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagment.Domain.pdb

@@ -19,3 +19,15 @@ D:\Shop\Shop\01-ShopQuery\obj\Debug\net6.0\01-ShopQuery.csproj.CopyComplete
 D:\Shop\Shop\01-ShopQuery\obj\Debug\net6.0\01-ShopQuery.dll
 D:\Shop\Shop\01-ShopQuery\obj\Debug\net6.0\ref\01-ShopQuery.dll
 D:\Shop\Shop\01-ShopQuery\obj\Debug\net6.0\01-ShopQuery.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\Invertory.Application.Contracts.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscountManagment.Domain.dll
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscontManagement.Infrastracture.EfCore.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Shop\Shop\01-ShopQuery\bin\Debug\net6.0\DiscountManagment.Domain.pdb
