@@ -69,6 +69,7 @@ namespace DiscontManagement.Infrastracture.EfCore.Repository
                 EndDate=c.EndDate.ToString(),
                 ProductId = c.ProductId,
                 Reason = c.Reason,
+                
 
 
 

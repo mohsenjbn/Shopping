@@ -2,7 +2,7 @@
 {
     public interface IProductQuery
     {
-
+        ProductQueryViewModel GetProducutBy(string slug);
         List<ProductQueryViewModel> LatestArrivals();
 
     }

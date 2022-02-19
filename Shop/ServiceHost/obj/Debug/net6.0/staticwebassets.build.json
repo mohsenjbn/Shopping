@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RikoXUTS1fDh6gpquFUXrN23wdsY0Ly03yH7gFf/omE=",
+  "Hash": "6U7jRBFQbqblugjhy0hJiuZoe6cFmYAZ1/FS997UUfw=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8517,6 +8517,23 @@
       "OriginalItemSpec": "wwwroot\\UpdolerFile\\پاف-4\\صندلی\\2022-02-16-23-31-46-654646.png"
     },
     {
+      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\UpdolerFile\\پاف-4\\صندلی\\2022-02-19-20-25-49-dffd.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UpdolerFile/پاف-4/صندلی/2022-02-19-20-25-49-dffd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UpdolerFile\\پاف-4\\صندلی\\2022-02-19-20-25-49-dffd.png"
+    },
+    {
       "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\UpdolerFile\\چراغ-خواب\\01- pas chera man naraghcam.mp3",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -8753,6 +8770,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UpdolerFile\\صندلی\\صندلی-4\\2022-02-17-00-19-54-10_1-600x800.jpg"
+    },
+    {
+      "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\UpdolerFile\\صندلی\\میز\\2022-02-19-20-29-51-dffd.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UpdolerFile/صندلی/میز/2022-02-19-20-29-51-dffd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UpdolerFile\\صندلی\\میز\\2022-02-19-20-29-51-dffd.png"
     },
     {
       "Identity": "D:\\Shop\\Shop\\ServiceHost\\wwwroot\\UpdolerFile\\صندلی\\میز10\\2022-02-16-22-48-41-dfgd.jpg",
