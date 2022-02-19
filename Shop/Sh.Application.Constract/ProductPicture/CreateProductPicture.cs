@@ -1,4 +1,5 @@
 ﻿using _01_framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.Product;
 using System.ComponentModel.DataAnnotations;
 
@@ -6,8 +7,8 @@ namespace ShopManagement.Application.Contracts.ProductPicture
 {
     public class CreateProductPicture
     {
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Picture { get;  set; }
+        
+        public IFormFile? Picture { get;  set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureTitle { get;  set; }

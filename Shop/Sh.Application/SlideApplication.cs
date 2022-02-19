@@ -7,10 +7,11 @@ namespace ShopManagement.Application
     public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _sliseRepository;
-
-        public SlideApplication(ISlideRepository sliseRepository)
+        private readonly IFileUploder _fileUploder;
+        public SlideApplication(ISlideRepository sliseRepository, IFileUploder fileUploder)
         {
             _sliseRepository = sliseRepository;
+            _fileUploder = fileUploder;
         }
 
         public OperationResult CreateSlide(CreateSlide command)
@@ -18,7 +19,9 @@ namespace ShopManagement.Application
             var Operation = new OperationResult();
             if (command == null)
                 return Operation.Failed(ResultMessage.IsDoblicated);
-            var slide=new Slide(command.Picture,command.PictureAlt,command.PictureTitle,command.Heading,command.Title,command.Btntext,command.Link);
+            var path = $"Slides";
+            var picturename = _fileUploder.Upload(command.Picture, path);
+            var slide=new Slide(picturename, command.PictureAlt,command.PictureTitle,command.Heading,command.Title,command.Btntext,command.Link);
             _sliseRepository.Create(slide);
             _sliseRepository.Savechanges();
             return Operation.IsSucssed();
@@ -31,7 +34,9 @@ namespace ShopManagement.Application
             if (slide == null)
                 return Operation.Failed(ResultMessage.IsNotExistRecord);
 
-            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title, command.Btntext,command.Link);
+            var path = $"Slides";
+            var picturename = _fileUploder.Upload(command.Picture, path);
+            slide.Edit(picturename, command.PictureAlt, command.PictureTitle, command.Heading, command.Title, command.Btntext,command.Link);
             _sliseRepository.Savechanges();
 
             return Operation.IsSucssed();

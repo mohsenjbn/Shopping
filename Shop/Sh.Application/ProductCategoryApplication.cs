@@ -8,10 +8,14 @@ namespace ShopManagement.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
+        private readonly IFileUploder _fileUploder;
+
+       
         private readonly IProductCategoryRepository _productCategoryRepository;
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploder fileUploder)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploder = fileUploder;
         }
            
         public OperationResult Create(CreateProductCategory Command)
@@ -21,7 +25,9 @@ namespace ShopManagement.Application
              return   Operation.Failed(ResultMessage.IsDoblicated);
 
             var Slug = Command.Slug.Slugify();
-            var ProductCategory=new ProductCategory(Command.Name,Command.Picture,Command.Describtion,Command.PictureAlt,Command.PictureTitle,Slug
+            var path = $"{Command.Slug}";
+            var picture = _fileUploder.Upload(Command.Picture, path);
+            var ProductCategory=new ProductCategory(Command.Name, picture, Command.Describtion,Command.PictureAlt,Command.PictureTitle,Slug
                ,Command.KeyWords,Command.MetaDescribtion);
             _productCategoryRepository.Create(ProductCategory);
             _productCategoryRepository.Savechanges();
@@ -40,7 +46,10 @@ namespace ShopManagement.Application
             return Operation.Failed(ResultMessage.IsDoblicated);
 
             var Slug = Command.Slug.Slugify();
-            ProductCategory.Edit(Command.Name, Command.Picture, Command.Describtion, Command.PictureAlt, Command.PictureTitle,
+            var path = $"{Command.Slug}";
+            
+            var picture = _fileUploder.Upload(Command.Picture, path);
+            ProductCategory.Edit(Command.Name, picture, Command.Describtion, Command.PictureAlt, Command.PictureTitle,
                 Slug, Command.KeyWords, Command.MetaDescribtion);
 
             _productCategoryRepository.Savechanges();

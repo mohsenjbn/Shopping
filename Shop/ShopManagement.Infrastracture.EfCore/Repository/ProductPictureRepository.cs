@@ -39,13 +39,18 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
             return _context.ProductPictures.Select(p=>new EditProductPicture
             {
                 Id=p.Id,
-                Picture=p.Picture,
+                //Picture=p.Picture,
                 IsDeleted=p.IsDeleted,
                 PictureAlt=p.PictureAlt,
                 PictureTitle=p.PictureTitle,
                 ProductId=p.ProductId,
 
             }).FirstOrDefault(p=>p.Id == id);
+        }
+
+        public ProductPicture GetProducPictireAndCategory(long id)
+        {
+           return _context.ProductPictures.Include(p=>p.product).ThenInclude(p=>p.ProductCategory).FirstOrDefault(p=>p.Id==id);
         }
     }
 }

@@ -2,10 +2,12 @@
 
 SinglePage.LoadModal = function () {
     var url = window.location.hash.toLowerCase();
+
     if (!url.startsWith("#showmodal")) {
         return;
     }
     url = url.split("showmodal=")[1];
+
     $.get(url,
         null,
         function (htmlPage) {
@@ -48,10 +50,13 @@ $(document).ready(function () {
             var form = $(this);
             const method = form.attr("method").toLocaleLowerCase();
             const url = form.attr("action");
+
             var action = form.attr("data-action");
 
             if (method === "get") {
+
                 const data = form.serializeArray();
+
                 $.get(url,
                     data,
                     function (data) {
@@ -86,6 +91,8 @@ function CallBackHandler(data, action, form) {
             break;
         case "Refresh":
             if (data.sucssesed) {
+                //hideModal()
+                //$("#datatable").load(location.href + " #datatable")
                 window.location.reload();
             } else {
                 alert(data.message);
@@ -184,8 +191,9 @@ function handleAjaxCall(method, url, data) {
     }
 }
 
-jQuery.validator.addMethod("maxFileSize",
+jQuery.validator.addMethod("MaxFileSize",
     function (value, element, params) {
+
         var size = element.files[0].size;
         var maxSize = 3 * 1024 * 1024;
         if (size > maxSize)
@@ -194,17 +202,21 @@ jQuery.validator.addMethod("maxFileSize",
             return true;
         }
     });
-jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jQuery.validator.unobtrusive.adapters.addBool("MaxFileSize");
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        debugger;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+
+jQuery.validator.addMethod("FileExtentionAttr",
+    function (value, element, params) {
+        let extention = element.files[0].type.split("/")[1];
+let formatFile = element.dataset.valFileformat;
+let ext = extention.toLocaleLowerCase();
+if (!formatFile.includes(ext))
+    return false;
+else {
+    return true;
+}
+
+
+    });
+jQuery.validator.unobtrusive.adapters.addBool("FileExtentionAttr");
+

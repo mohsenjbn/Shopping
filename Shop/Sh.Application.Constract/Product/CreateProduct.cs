@@ -1,6 +1,7 @@
 ﻿
 
 using _01_framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopiManagement.Application.Contracts.ProductCategory;
 using System.ComponentModel.DataAnnotations;
 
@@ -20,8 +21,8 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Describtion { get;  set; }
 
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Picture { get;  set; }
+        
+        public IFormFile? Picture { get;  set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get;  set; }

@@ -1,5 +1,7 @@
+using _01_framework.Application;
 using DiscountManegmant.Infrastracture.Configoration;
 using InventoryManagement.Infrastracture.Configuration;
+using ServiceHost;
 using ShopManagement.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,8 @@ builder.Services.AddRazorPages();
 ShopManagementBootstrapper.Configure(builder.Services, ConnectionString);
 DiscountManagementBootStrapper.configore(builder.Services, ConnectionString);
 InventoryManagementBootstrapper.Configure(builder.Services, ConnectionString);
+
+builder.Services.AddTransient<IFileUploder, FileUploder>();
 var app = builder.Build();
 
 

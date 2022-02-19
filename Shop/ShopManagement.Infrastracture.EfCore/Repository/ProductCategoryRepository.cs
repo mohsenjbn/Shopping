@@ -32,7 +32,7 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
             {
                 Id = x.Id,
                 Name=x.Name,
-                Picture=x.Picture,
+                //Picture=x.Picture.,
                 PictureAlt=x.PictureAlt,
                 PictureTitle=x.PictureTitle,
                 Describtion=x.Describtion,
@@ -46,7 +46,11 @@ namespace ShopManagement.Infrastracture.EfCore.Repository
             ).FirstOrDefault(x => x.Id == id);
         }
 
-    
+        public string GetSlugPrudyctAndCategory(long id)
+        {
+            return _context.productCategories.Select(p => new { p.Id, p.Slug }).FirstOrDefault(p => p.Id == id).Slug;
+        }
+
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel)
         {
             var query = _context.productCategories.Select(p => new ProductCategoryViewModel()

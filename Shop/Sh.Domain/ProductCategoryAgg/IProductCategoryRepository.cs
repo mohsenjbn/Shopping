@@ -8,7 +8,7 @@ namespace Sh.Domain.ProductCategoryAgg
 {
     public interface IProductCategoryRepository:IRepository<long,ProductCategory>
     {
-
+        string GetSlugPrudyctAndCategory(long id);
         List<ProductCategoryViewModel> Categories();
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel);
         EditProductCategory GetDatail(long id);

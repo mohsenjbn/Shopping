@@ -28,8 +28,13 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Products
 
         public JsonResult OnpostCreate(CreateProductCategory command)
         {
-            var result = _productCategoryApplication.Create(command);
-            return new JsonResult(result);
+            
+           
+                var result = _productCategoryApplication.Create(command);
+                return new JsonResult(result);
+          
+          
+
         }
 
         public IActionResult OnGetEdit(long id)
@@ -41,8 +46,15 @@ namespace ServiceHost.Areas.Adminstarator.Pages.Shop.Products
         }
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-            var result = _productCategoryApplication.Edit(command);
-            return new JsonResult(result);
+
+           
+                var result = _productCategoryApplication.Edit(command);
+                return new JsonResult(result);
+            
+                
+                
+            
+            
         }
     }
 

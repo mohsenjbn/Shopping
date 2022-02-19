@@ -42,7 +42,11 @@ namespace Sh.Domain.ProductCategoryAgg
             Name = name;
             PictureAlt = pictureAlt;
             PictureTitle = picturetitle;
-            Picture = picture;
+            if(!string.IsNullOrWhiteSpace(picture))
+            {
+                Picture = picture;
+            }
+
             Describtion = describtion;
             Slug = slug;
             MetaDescribtion = metadescribtion;

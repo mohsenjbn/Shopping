@@ -92,3 +92,5 @@ D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+D:\Shop\Shop\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
