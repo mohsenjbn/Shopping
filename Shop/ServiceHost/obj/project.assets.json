@@ -751,6 +751,77 @@
           "bin/placeholder/01-ShopQuery.dll": {}
         }
       },
+      "Blog.Management.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Management.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Management.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blog.Management.Domain": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.dll": {}
+        }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01-framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlogManagement.Application": "1.0.0",
+          "BlogManagement.Infrastracture.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Configuration.dll": {}
+        }
+      },
+      "BlogManagement.Infrastracture.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blog.Management.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Infrastracture.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Infrastracture.EFCore.dll": {}
+        }
+      },
       "DiscontManagement.Infrastracture.EfCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2340,6 +2411,31 @@
       "path": "../01-ShopQuery/01-ShopQuery.csproj",
       "msbuildProject": "../01-ShopQuery/01-ShopQuery.csproj"
     },
+    "Blog.Management.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Management.Domain/Blog.Management.Domain.csproj",
+      "msbuildProject": "../Blog.Management.Domain/Blog.Management.Domain.csproj"
+    },
+    "BlogManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application/BlogManagement.Application.csproj",
+      "msbuildProject": "../BlogManagement.Application/BlogManagement.Application.csproj"
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj"
+    },
+    "BlogManagement.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Configuration/BlogManagement.Configuration.csproj",
+      "msbuildProject": "../BlogManagement.Configuration/BlogManagement.Configuration.csproj"
+    },
+    "BlogManagement.Infrastracture.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Infrastracture.EFCore/BlogManagement.Infrastracture.EFCore.csproj",
+      "msbuildProject": "../BlogManagement.Infrastracture.EFCore/BlogManagement.Infrastracture.EFCore.csproj"
+    },
     "DiscontManagement.Infrastracture.EfCore/1.0.0": {
       "type": "project",
       "path": "../DiscontManagement.Infrastracture.EfCore/DiscontManagement.Infrastracture.EfCore.csproj",
@@ -2418,6 +2514,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BlogManagement.Configuration >= 1.0.0",
       "DiscountManegmant.Infrastracture.Configoration >= 1.0.0",
       "InventoryManagement.Infrastracture.Configuration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
@@ -2456,6 +2553,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Shop\\Shop\\BlogManagement.Configuration\\BlogManagement.Configuration.csproj": {
+              "projectPath": "D:\\Shop\\Shop\\BlogManagement.Configuration\\BlogManagement.Configuration.csproj"
+            },
             "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj": {
               "projectPath": "D:\\Shop\\Shop\\DiscountManegmant.Infrastracture.Configoration\\DiscountManegmant.Infrastracture.Configoration.csproj"
             },

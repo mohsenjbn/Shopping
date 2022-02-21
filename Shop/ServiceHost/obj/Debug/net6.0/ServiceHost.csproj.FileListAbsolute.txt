@@ -94,3 +94,13 @@ D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfC
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Invertory.Application.Contracts.pdb
 D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
 D:\Shop\Shop\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Blog.Management.Domain.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Configuration.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastracture.EFCore.dll
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Configuration.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\Blog.Management.Domain.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+D:\Shop\Shop\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastracture.EFCore.pdb
