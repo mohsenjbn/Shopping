@@ -4,8 +4,10 @@ D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\ref\DiscountManagment.Dom
 D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\DiscountManagment.Domain.pdb
 D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\01-framework.dll
 D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\01-framework.pdb
 D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.csproj.AssemblyReference.cache
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.dll
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\ref\DiscountManagment.Domain.dll
 D:\Shop\Shop\DiscountManagment.Domain\obj\Debug\net6.0\DiscountManagment.Domain.pdb
-D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-D:\Shop\Shop\DiscountManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

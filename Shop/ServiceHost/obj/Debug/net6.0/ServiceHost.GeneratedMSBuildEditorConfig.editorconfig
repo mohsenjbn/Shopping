@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Shop\Shop\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Blog/ArticleCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xCbG9nXEFydGljbGVDYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Blog/ArticleCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xCbG9nXEFydGljbGVDYXRlZ29yaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Blog/ArticleCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xCbG9nXEFydGljbGVDYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Shop/Shop/ServiceHost/Areas/Adminstarator/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdGFyYXRvclxQYWdlc1xEaXNjb3VudHNcQ29sbGVhZ3VlRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

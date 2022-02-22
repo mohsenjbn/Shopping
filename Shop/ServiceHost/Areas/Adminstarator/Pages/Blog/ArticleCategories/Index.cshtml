@@ -1,29 +1,46 @@
 ﻿@page
-@model             IndexModel
-@{
-}
-
+@model ServiceHost.Areas.Adminstarator.Pages.Blog.ArticleCategories.IndexModel
 @{
     Layout = "Shared/_AdminLayout";
-    ViewData["title"] = "مدیریت گروه محصولات ";
+    ViewData["title"] = "مدیریت گروه مقالات ";
 }
 
 <div class="row">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه محصولی</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه مقاله</a>
         </p>
     </div>
 </div>
 
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">جستجو در گروه محصولات</h3>
+            </div>
+            <div class="panel-body">
+     <form class="form-inline" role="form" method="get">
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="Search.Name"></label>
+                        <input class="form-control" asp-for="Search.Name" placeholder="نام گروه">
+                    </div>
+              
+                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="row" id="ProductCategoriesDiv">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست گروه محصولات</h3>
+                <h3 class="panel-title">لیست گروه مقالات</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -34,12 +51,15 @@
                                     <th>#</th>
                                     <th>عکس</th>
                                     <th>نام گروه </th>
-                                    <th>تاریخ تولید</th>
+                                    <th>تعداد مقالات </th>
+                                    <th>توضیحات </th>
+                                    <th>ترتیب نمایش </th>
+                                    <th>تاریخ ساخت </th>
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model.ProductCategories)
+                                @foreach (var item in Model.ArticleCategories)
                                 {
                                     <tr>
 
@@ -47,8 +67,14 @@
                                         <td>
                                             <img src="~/UpdolerFile/@item.picture" style="width: 70px; height: 70px" />
                                         </td>
-                                        <td>@item.Name</td>                         
-                                        <th>@item.CreationDate</th>
+                                        <td>@item.Name</td>
+                                        <td>@item.</td>
+
+                                        <td>0</td>                         
+                                        <th>@item.Describtion</th>
+                                        <td>@item.ShowOrder</td>
+                                        <td>@item.CreationDate</td>
+
 
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"

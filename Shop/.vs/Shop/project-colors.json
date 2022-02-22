@@ -150,7 +150,12 @@
       "ProjectGuid": "3d0f3e9b-38a1-454b-a461-34c427e3c4a8",
       "DisplayName": "BlogManagement.Infrastracture.EFCore",
       "ColorIndex": 12
+    },
+    "674b322b-4b26-4591-a435-50f85584f2cd": {
+      "ProjectGuid": "674b322b-4b26-4591-a435-50f85584f2cd",
+      "DisplayName": "BlogManagement.Configuration",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }
