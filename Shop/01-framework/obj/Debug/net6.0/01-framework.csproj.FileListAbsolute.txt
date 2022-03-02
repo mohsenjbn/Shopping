@@ -10,3 +10,14 @@ D:\Shop\Shop\01-framework\obj\Debug\net6.0\01-framework.csproj.CoreCompileInputs
 D:\Shop\Shop\01-framework\obj\Debug\net6.0\01-framework.dll
 D:\Shop\Shop\01-framework\obj\Debug\net6.0\ref\01-framework.dll
 D:\Shop\Shop\01-framework\obj\Debug\net6.0\01-framework.pdb
+D:\Shopping\Shop\01-framework\bin\Debug\net6.0\01-framework.deps.json
+D:\Shopping\Shop\01-framework\bin\Debug\net6.0\01-framework.dll
+D:\Shopping\Shop\01-framework\bin\Debug\net6.0\ref\01-framework.dll
+D:\Shopping\Shop\01-framework\bin\Debug\net6.0\01-framework.pdb
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.AssemblyInfoInputs.cache
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.AssemblyInfo.cs
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.csproj.CoreCompileInputs.cache
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.dll
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\ref\01-framework.dll
+D:\Shopping\Shop\01-framework\obj\Debug\net6.0\01-framework.pdb

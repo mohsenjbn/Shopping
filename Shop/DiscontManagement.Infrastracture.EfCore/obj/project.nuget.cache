@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cad0yrv8pCvRJ3aQTz/TtLZYZAcqpSoLxFVKLRfA+xGe0uIrZFV9GlD7fofAx1jWSfP12/DLgn+iFJp9VrdOQ==",
+  "dgSpecHash": "19snoHa9+H5w+IXdM8FWWCsBaehxWB6+SkT4SrecWZ11ItOXuz00kFRRdZHdL0kAlVgdKsqvEm0d50XoparwUA==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

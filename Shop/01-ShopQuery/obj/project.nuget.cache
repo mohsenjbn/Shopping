@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uTNApNQ0Y7xzy2L5t8BmfbvFtOSWE/KNxwRFdkgge5fjO7JIKuW8nEaNPyuSjcCUxvLVFCjzfjR03+ZAAAXCHg==",
+  "dgSpecHash": "viFQDG1efdghY/AQSr8ORFXsB4EWdzMKG5enD4mKIbY7F+L/HuvPxyEhM7Hmajp0shqpsaI8irlLjKlosbvY7g==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\01-ShopQuery\\01-ShopQuery.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\01-ShopQuery\\01-ShopQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",

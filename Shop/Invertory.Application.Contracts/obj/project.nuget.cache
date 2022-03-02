@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X5UsizLsq8RMJWkINzcCcjZmPc+X+e+r9b27ibO8uyQ/Zgd8yMx3/m1ysHOr7c8i4C27/XGgwcmMuDsivZbFWQ==",
+  "dgSpecHash": "mBkmGCOhfnR3pe8BNKntUmAGVYKF88C3+zW732NtC1IeO8DKr2koXy1eQ1XFkEw2kzYkNhir+75V2ESdxcNhew==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\Invertory.Application.Contracts\\Invertory.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\Invertory.Application.Contracts\\Invertory.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",

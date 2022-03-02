@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zMvEWHSM9/TA8sJsyeS9OQY7ENnYx6E+1hCEuBlNUDnEYdc4HZLrXpn/ocVcUspokxB6IlnPBJ94hVS0214Iag==",
+  "dgSpecHash": "tBU8FBV9NgC4WMPvKGLBbkUY/PnMT4Ge4G/dUAFqWYHvhY4uhICgq5r1bDgrZmTvwWeN0ip3PjxB7XktCk00/Q==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

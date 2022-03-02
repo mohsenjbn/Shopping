@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hoJp6KhfHHrqMAX31loeGwGFm0dk1Fne92vfSJlPrVZ0QuRP+mOzz5KsYO/SXOxuGZ+a/0eyJpDsfuW7ePLuqg==",
+  "dgSpecHash": "bUxupMcCfOZIlGijFbHiOw/XlLHzlzb/ywkoTRYcJSkE6e5MxogfE+JKvDChCwOm3rOi9uisTw6BSciDomSuGw==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

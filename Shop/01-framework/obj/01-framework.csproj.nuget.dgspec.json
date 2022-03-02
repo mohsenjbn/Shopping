@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {}
+    "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {}
   },
   "projects": {
-    "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
+    "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj",
         "projectName": "01-framework",
-        "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\01-framework\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\01-framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

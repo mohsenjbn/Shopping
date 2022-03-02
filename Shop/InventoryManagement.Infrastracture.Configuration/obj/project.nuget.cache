@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nzoT7rChPhRx+nru1cPY0HZyXzCoFqdcg2AeGuDglivSZASd9gY4JSrWzmfLBMz28mvKA10xhFyWFtSDAaAdSQ==",
+  "dgSpecHash": "86HQ1vxp7B/A6rALmjji5Uk6zeS3SL4U29dAaFA7dLAD85/0aQEzEaTTUXR4hLbtRswzjbPogIjnemFuvRdLEw==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\InventoryManagement.Infrastracture.Configuration\\InventoryManagement.Infrastracture.Configuration.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\InventoryManagement.Infrastracture.Configuration\\InventoryManagement.Infrastracture.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",

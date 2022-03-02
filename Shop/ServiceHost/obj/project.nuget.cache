@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3G9jLiazSip1nLmeHF44RZ8G1XOXdR28TW3Qwe+7o/VGArttBd3xGgPnyVgNSiRFf8Dp8rudqxrS9kEu/UKZ8Q==",
+  "dgSpecHash": "9eL6hD40OjjPozI5HyHsBhtiD6dEvxac/aOgLvDoR/tpMf/SW3aZzLSiJFQ2fFh3qE9TbIxydcdpYySBBrBgkA==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

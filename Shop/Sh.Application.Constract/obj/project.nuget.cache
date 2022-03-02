@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJkIQWjYHfxY+hInjeueIyvBQll2q6m4XzDoszQgLx6tRrF1QXLreH63/y/9tiC8cTa34prleBF7Sex1tYsWhA==",
+  "dgSpecHash": "/phxUuACbHIsaMjP7s5NDyjutV3bHRxUi3NAPccciOr2wvBR87WfDN9wpIAqzvtMQ6eAXrpZiOWl+mlHBRR5SQ==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",

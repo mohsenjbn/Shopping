@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {}
+    "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {}
   },
   "projects": {
-    "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
+    "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj",
         "projectName": "01-framework",
-        "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\01-framework\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\01-framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {
+    "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
         "projectName": "DiscontManagement.Infrastracture.EfCore",
-        "projectPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\DiscontManagement.Infrastracture.EfCore.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\DiscontManagement.Infrastracture.EfCore\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\DiscontManagement.Infrastracture.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,11 +108,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
+              "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
               },
-              "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj"
+              "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj"
               }
             }
           }
@@ -157,18 +157,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+    "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "projectName": "DiscountManagement.Application.Contracts",
-        "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -189,11 +189,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj"
               },
-              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -222,18 +222,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+    "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
         "projectName": "DiscountManagment.Domain",
-        "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\DiscountManagment.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -254,11 +254,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj"
               },
-              "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -287,18 +287,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+    "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\Sh.Application.Constract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,8 +319,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj"
               }
             }
           }
@@ -349,18 +349,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj": {
+    "D:\\Shopping\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\Sh.Domain\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\Sh.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -381,11 +381,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\01-framework\\01-framework.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\01-framework\\01-framework.csproj"
+              "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\01-framework\\01-framework.csproj"
               },
-              "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\Sh.Application.Constract\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -414,18 +414,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
+    "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
+        "projectUniqueName": "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
         "projectName": "ShopManagement.Infrastracture.EfCore",
-        "projectPath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
+        "projectPath": "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastracture.EfCore.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Shop\\Shop\\ShopManagement.Infrastracture.EfCore\\obj\\",
+        "outputPath": "D:\\Shopping\\Shop\\ShopManagement.Infrastracture.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -446,8 +446,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\Shop\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj"
+              "D:\\Shopping\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Shopping\\Shop\\Sh.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -498,7 +498,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

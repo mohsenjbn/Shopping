@@ -872,11 +872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
+      "projectUniqueName": "D:\\Shopping\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
       "projectName": "DiscountManagement.Apolication",
-      "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
+      "projectPath": "D:\\Shopping\\Shop\\DiscountManagement.Apolication\\DiscountManagement.Apolication.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-      "outputPath": "D:\\Shop\\Shop\\DiscountManagement.Apolication\\obj\\",
+      "outputPath": "D:\\Shopping\\Shop\\DiscountManagement.Apolication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -897,11 +897,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-              "projectPath": "D:\\Shop\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+            "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+              "projectPath": "D:\\Shopping\\Shop\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
             },
-            "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
-              "projectPath": "D:\\Shop\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
+            "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj": {
+              "projectPath": "D:\\Shopping\\Shop\\DiscountManagment.Domain\\DiscountManagment.Domain.csproj"
             }
           }
         }
@@ -930,7 +930,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
